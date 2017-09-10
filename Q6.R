@@ -8,7 +8,7 @@ act <- read.csv("./RepData_PeerAssessment1/activity/activity.csv")
 act$date <- as.Date(act$date, "%Y-%m-%d")
 
 # 6. Code to describe and show a strategy for imputing missing data
-# 6.1 Calculate and report the total number of missing values in the dataset 
+# 6.1 Calculate and report the total number of missing values in the dataset
 # (i.e. the total number of rows with NAs)
 sum(is.na(act$steps))
 # 6.2 Devise a strategy for filling in all of the missing values in the dataset
